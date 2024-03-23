@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blog_text_blocks",
+  "info": {
+    "name": "textBlock",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "color": {
+      "model": "color"
+    }
+  }
+}

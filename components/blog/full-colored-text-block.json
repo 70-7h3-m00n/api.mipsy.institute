@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_full_colored_text_blocks",
+  "info": {
+    "name": "fullColoredTextBlock",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "textColor": {
+      "model": "color"
+    }
+  }
+}

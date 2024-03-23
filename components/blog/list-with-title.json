@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blog_list_with_titles",
+  "info": {
+    "name": "listWithTitle",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "list-group.list-with-title-item"
+    },
+    "icon": {
+      "model": "blog-icon"
+    }
+  }
+}

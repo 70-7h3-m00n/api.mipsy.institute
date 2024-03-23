@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/index-numbers",
+      "handler": "index-number.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/index-numbers/count",
+      "handler": "index-number.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/index-numbers/:id",
+      "handler": "index-number.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/index-numbers",
+      "handler": "index-number.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/index-numbers/:id",
+      "handler": "index-number.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/index-numbers/:id",
+      "handler": "index-number.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

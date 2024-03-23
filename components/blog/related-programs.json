@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blog_related_programs",
+  "info": {
+    "name": "relatedPrograms",
+    "icon": "ambulance",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "richtext"
+    },
+    "programs": {
+      "collection": "program"
+    },
+    "borderColor": {
+      "model": "color"
+    },
+    "textItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.text"
+    }
+  }
+}

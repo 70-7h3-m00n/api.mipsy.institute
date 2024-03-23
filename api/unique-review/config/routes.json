@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/unique-reviews",
+      "handler": "unique-review.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/unique-reviews/count",
+      "handler": "unique-review.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/unique-reviews/:id",
+      "handler": "unique-review.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/unique-reviews",
+      "handler": "unique-review.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/unique-reviews/:id",
+      "handler": "unique-review.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/unique-reviews/:id",
+      "handler": "unique-review.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

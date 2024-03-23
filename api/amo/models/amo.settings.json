@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "amos",
+  "info": {
+    "name": "Amo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "refresh": {
+      "type": "string",
+      "required": true
+    },
+    "access": {
+      "type": "string",
+      "required": true
+    },
+    "expired_in": {
+      "type": "biginteger",
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
