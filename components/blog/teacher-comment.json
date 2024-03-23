@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blog_teacher_comments",
+  "info": {
+    "name": "teacherComment",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "teacher": {
+      "model": "teacher"
+    },
+    "specialization": {
+      "type": "richtext"
+    },
+    "comment": {
+      "type": "richtext"
+    },
+    "borderColor": {
+      "model": "color"
+    }
+  }
+}

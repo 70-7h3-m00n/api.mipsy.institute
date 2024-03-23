@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blog_list_items",
+  "info": {
+    "name": "listItem",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "icon": {
+      "model": "blog-icon"
+    }
+  }
+}

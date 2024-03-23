@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blog_single_image_blocks",
+  "info": {
+    "name": "singleImageBlock",
+    "icon": "file-download"
+  },
+  "options": {},
+  "attributes": {
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "alternativeText": {
+      "type": "string"
+    }
+  }
+}

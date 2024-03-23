@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_blog_list_with_background_and_titles",
+  "info": {
+    "name": "ListWithBackgroundAndTitle",
+    "icon": "calendar-week",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.list-item"
+    },
+    "backgroundColor": {
+      "model": "color"
+    },
+    "lineColor": {
+      "model": "color"
+    },
+    "title": {
+      "type": "richtext"
+    },
+    "icon": {
+      "model": "blog-icon"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_blog_text_block_with_backgrounds",
+  "info": {
+    "name": "textBlockWithBackground",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "textColor": {
+      "model": "color"
+    },
+    "backgroundColor": {
+      "model": "color"
+    },
+    "borderColor": {
+      "model": "color"
+    }
+  }
+}

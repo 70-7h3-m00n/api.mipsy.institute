@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_comment_blocks",
+  "info": {
+    "name": "commentBlock",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "lineColor": {
+      "model": "color"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

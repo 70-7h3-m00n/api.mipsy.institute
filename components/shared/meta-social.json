@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_shared_meta_socials",
+  "info": {
+    "name": "MetaSocial",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "socialNetwork": {
+      "type": "enumeration",
+      "enum": [
+        "YouTube",
+        "VK",
+        "Twitter",
+        "TikTok",
+        "Pinterest",
+        "Snapchat",
+        "LinkedIn",
+        "Reddit",
+        "Quora",
+        "Skype",
+        "Facebook",
+        "Instagram",
+        "FacebookMessenger",
+        "Telegram",
+        "WhatsApp",
+        "Viber"
+      ]
+    }
+  }
+}

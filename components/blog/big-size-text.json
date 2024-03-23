@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blog_big_size_texts",
+  "info": {
+    "name": "bigSizeText",
+    "icon": "arrow-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    },
+    "textColor": {
+      "model": "color"
+    }
+  }
+}
